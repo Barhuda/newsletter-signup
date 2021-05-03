@@ -4,11 +4,13 @@ const client = require("@mailchimp/mailchimp_marketing");
 
 
 
+
 const app = express();
 
+const herokuApiKey = process.env.APIKEY;
 
 client.setConfig({
-    apiKey: "59a1485b676b0e3f48f2740a4ffa259b-us1",
+    apiKey: herokuApiKey,
     server: "us1",
 });
 
@@ -66,7 +68,3 @@ app.post("/", function (req, res) {
     run().catch(e => res.sendFile(__dirname + "/failure.html"));
 })
 
-/*
-59a1485b676b0e3f48f2740a4ffa259b-us1 */
-
-/* audience id: cccd28e784 */
