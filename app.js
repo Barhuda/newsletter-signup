@@ -23,7 +23,9 @@ app.use(express.urlencoded({
 app.use(express.static("public"));
 
 
-/* Standard Listener für den Server und Port */
+/* Standard Listener für den Server und Port 
+Process.env.PORT wird für Heroku hosting verwendet
+*/
 app.listen(process.env.PORT || 3000, function () {
 
     console.log("Ready");
