@@ -24,7 +24,7 @@ app.use(express.static("public"));
 
 
 /* Standard Listener für den Server und Port */
-app.listen(3000, function () {
+app.listen(process.env.PORT || 3000, function () {
 
     console.log("Ready");
 })
