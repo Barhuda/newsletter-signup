@@ -36,7 +36,7 @@ app.listen(process.env.PORT || 3000, function () {
 
 /* Haupt GET Aufruf für die Homeseite */
 app.get("/privacy", function (req, res) {
-    res.sendFile(__dirname + "/privacy.html");
+    res.sendFile(__dirname + "/Privacy.html");
 })
 
 
