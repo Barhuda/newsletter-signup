@@ -35,6 +35,12 @@ app.listen(process.env.PORT || 3000, function () {
 
 
 /* Haupt GET Aufruf für die Homeseite */
+app.get("/privacy", function (req, res) {
+    res.sendFile(__dirname + "/privacy.html");
+})
+
+
+/* Haupt GET Aufruf für die Homeseite */
 app.get("/", function (req, res) {
     res.sendFile(__dirname + "/signup.html");
 })
