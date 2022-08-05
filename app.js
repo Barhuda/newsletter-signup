@@ -39,7 +39,7 @@ app.get("/privacy", function (req, res) {
     res.sendFile(__dirname + "/privacy.html");
 })
 
-/* Haupt GET Aufruf für die Homeseite */
+/* Haupt GET Aufruf für die Termsseite */
 app.get("/terms", function (req, res) {
     res.sendFile(__dirname + "/terms.html");
 })
@@ -47,7 +47,7 @@ app.get("/terms", function (req, res) {
 
 /* Haupt GET Aufruf für die Homeseite */
 app.get("/", function (req, res) {
-    res.sendFile(__dirname + "/signup.html");
+    res.sendFile(__dirname + "/mealplanner.html");
 })
 
 

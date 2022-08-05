@@ -1,44 +1,178 @@
-html,
-body {
-  height: 100%;
+
+body{
+  font-family: 'Montserrat', sans-serif;
 }
 
-body {
-  display: flex;
-  align-items: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #f5f5f5;
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
 }
 
-.form-signin {
-  width: 100%;
-  max-width: 330px;
-  padding: 15px;
-  margin: auto;
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
 }
 
-.form-signin .checkbox {
-  font-weight: 400;
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
-.form-signin .form-floating:focus-within {
-  z-index: 2;
+
+.container-fluid{
+  padding: 3% 15% 10% 15%;
 }
 
-.top {
-  margin-bottom: -1px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
+#title {
+  background-color: #5f0f40;
+  color: #FFF;
 }
 
-.middle {
-    border-radius: 0;
-    margin-bottom: -1px;
+.navbar{
+  padding: 0 0 3.5rem 0;
 }
 
-.bottom {
-  margin-bottom: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light", sans-serif;
+}
+
+/* Download Buttons */
+
+.download-button{
+  margin: 2% 3% 5% 0;
+  background-color: #9a031e;
+  color: #FFFF;
+}
+
+/* Title Image */
+
+.title-image{
+  width: 70%;
+  padding-left: 5%;
+}
+
+/* Features Section */
+#features{
+  padding: 7% 15%;
+
+}
+
+
+.feature-icon{
+  padding-bottom: 6%;
+  color: #9a031e;
+}
+
+.feature-icon:hover{
+  color: #fb8b24;
+}
+
+.feature-text{
+  color: #8f8f8f;
+}
+
+/* Testimonial Section */
+#testimonials{
+  text-align: center;
+  background: rgb(95,15,64);
+  background: linear-gradient(347deg, rgba(95,15,64,1) 6%, rgba(154,3,30,1) 96%);
+  color: #fff;
+}
+
+.testimonal-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testi-name{
+  display: block;
+  padding-top: 1.5%;
+  font-size: 1.5rem;
+}
+/* Product Section */
+#product{
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.product-box{
+  padding: 0 20%;
+  margin-top: 5%;
+}
+
+.product-image{
+  width : 50%;
+}
+
+.product-divider{
+  border-width: 2px;
+  border-color: rgb(95,15,64);
+  border-color: linear-gradient(347deg, rgba(95,15,64,1) 6%, rgba(154,3,30,1) 96%);
+  margin: 4% auto;
+  width: 65%;
+}
+
+/* CTA Section */
+
+#cta{
+  background: rgb(95,15,64);
+  background: linear-gradient(347deg, rgba(95,15,64,1) 6%, rgba(154,3,30,1) 96%);
+  
+  color: #fff;
+  text-align: center;
+}
+
+.cta-text{
+  font-family: "Montserrat-black", sans-serif;
+  font-size: 2.5rem;
+  padding-top: 5%;
+}
+
+.download-button2{
+  background-color: #0f4c5c;
+}
+
+/* Footer Section */
+
+#footer{
+  background-color: #fff;
+  text-align: center;
+  margin: 2%;
+}
+
+.social-buttons-container{
+  padding: 2%;
+}
+
+
+
+/* Media */
+
+@media (max-width: 1028px){
+#title{
+  text-align: center;
+}
 }
