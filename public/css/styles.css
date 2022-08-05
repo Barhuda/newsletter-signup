@@ -135,6 +135,15 @@ h3{
   width: 65%;
 }
 
+/* Pricing section */
+
+#testimonials{
+  text-align: center;
+  background: rgb(95,15,64);
+  background: linear-gradient(347deg, rgba(95,15,64,1) 6%, rgba(154,3,30,1) 96%);
+  color: #fff;
+}
+
 /* CTA Section */
 
 #cta{
